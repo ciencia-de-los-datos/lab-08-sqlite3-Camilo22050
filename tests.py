@@ -62,6 +62,7 @@ def test_04():
         "K0": {0: "E", 1: "B", 2: "C"},
         "c16": {0: "EGFD", 1: "BDEE", 2: "CCCE"},
     }
+    #print(pd.read_sql_query(query, conn).to_dict())
 
 
 def test_05():
